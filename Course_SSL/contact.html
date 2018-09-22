@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+#hello1{
+ height:90%;
+}
+h1{
+color:white;
+}
+#hello,#hello2 p{
+  color:green;
+  text-align: center;
+  margin-top:5%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:25%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background:black;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white ;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+html { 
+    background:url('image4.jpg') no-repeat center center;
+    min-height:100%;
+    background-size:cover;
+}
+</style>
+<script>
+function newi(){
+var x=document.getElementById('hello');
+x.style.display="block";
+var y=document.getElementById('hello1');
+y.style.display="none";
+var z=document.getElementById('hello11');
+z.style.display="none";
+}
+function newii(){
+var x=document.getElementById('hello2');
+x.style.display="block";
+var y=document.getElementById('hello11');
+y.style.display="none";
+var z=document.getElementById('hello1');
+z.style.display="none";
+}
+
+</script>
+</head>
+<body>
+<div class="card" style="display:none" id="hello">
+  <img src="Pic.jpg" alt="John" style="width:100%">
+  <h1>Prabhakar Jha</h1>
+  <p class="title">Student,SSL</p>
+  <p>IIT Dharwad</p>
+  <p>Email:</p>
+  <p> jhaprabhakar1998@gmail.com</p>
+  <p>Contact no.</p>
+  <p>9990568443</p>
+</div>
+<div class="card" style="display:none" id="hello2">
+  <img src="nikshep.jpg" alt="John" style="width:100%">
+  <h1>Nikshep Maknoor</h1>
+  <p class="title">Student,SSL</p>
+  <p>IIT Dharwad</p>
+  <p>Email:</p>
+  <p>nikshepmaknoor@gmail.com</p>
+  <p>Contact no.</p>
+  <p>8309318450</p>
+</div>
+<div class="card" style="display:block;margin-top:5%;margin-left:74%;" id="hello1">
+  <img src="Pic.jpg" alt="Prabhakar" style="width:100%">
+  <h1>Prabhakar Jha</h1>
+  <p class="title">Student,SSL</p>
+  <p>IIT Dharwad</p>
+ <p><button onclick="newi()">Contact</button></p>
+</div>
+<div class="card" style="display:block;margin-top:-35%;margin-left:5%;" id="hello11">
+  <img src="nikshep.jpg" alt="John" style="width:100%">
+  <h1>Nikshep Maknoor</h1>
+  <p class="title">Student,SSL</p>
+  <p>IIT Dharwad</p>
+  <div style="margin: 24px 0;">
+ </div>
+ <p><button onclick="newii()">Contact</button></p>
+</div>
+</div>
+</body>
+</html>

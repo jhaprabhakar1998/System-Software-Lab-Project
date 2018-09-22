@@ -1,0 +1,35 @@
+h1{
+  color: blue;
+  font-style: oblique;
+  font-display: block;
+  font-size: 65px;
+  text-align: center;
+  text-shadow:2px 3px red;
+  padding-bottom:5%;
+}
+.submit-button{
+  background:skyblue;
+  padding:2%;
+  width:100%;
+  margin-left:0%;
+  margin-top:10%;
+}
+.input-field{
+  margin-top:-2%;
+  color:black;
+  padding:4%;
+  width:100%;"
+}
+.top-button-log{
+  background: white;
+  border-style: none;
+  padding:4%;
+  width:49%;"
+}
+.top-button-sign{
+  border-style: none;
+  padding:4%;
+  width:51%;"
+}
+
+

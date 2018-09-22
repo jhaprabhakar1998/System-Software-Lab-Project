@@ -1,0 +1,38 @@
+
+Prabhakar Jha
+Roll-160010009
+Nikshep Maknoor
+Roll-160010025
+
+Contribution
+
+Prabhakar Jha(55%)
+Nikshep Maknoor(45%)
+
+List of files 
+
+bootstrap.css
+contact.html -for contact section
+course_1.css -css file for better look
+course_1.js -for intereactivity
+create_account.php -for handling the form
+download.php -for downloading a file
+final_upload.php -when uploading is succesful
+final_upload1.php -when uploading fails
+login.php -for login details
+Portal.php - This is our main file. Open this and login or singnup.
+Practice.html -for Practice section
+problem.php -for problem page
+simpleupload.php -for handling the uploads
+upload.php -for displaying upload webpage.
+
+
+How to Run?
+Paste this folder in /var/www/html
+then go to your web browser(e.g. Google Chrome)
+type http://localhost
+open this folder
+open the Course_SSL Folder
+In that Folder go to Portal.php and open it.
+
+
